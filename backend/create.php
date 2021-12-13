@@ -8,7 +8,7 @@ $year = $data['year'];
 $studentOne = $data['studentOne'];
 $studentTwo = $data['studentTwo'];
 
-$q = mysqli_query ($con, "INSERT INTO ´student´ (´year´, ´studentOne´, ´studentTwo´) VALUES 
+$q = mysqli_query ($con, "INSERT INTO student (year, studentOne, studentTwo) VALUES 
 ('$year', '$studentOne', '$studentTwo')");
 
 if ($q) {

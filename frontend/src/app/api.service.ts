@@ -1,7 +1,5 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-
-
 @Injectable({
   providedIn: 'root'
 })
@@ -15,8 +13,6 @@ export class ApiService {
     this.headers.append("Accept", 'application/json');
     this.headers.append('Content-Type','application/json');
     this.headers.append('Access-Control-Allow-Origin','*');
-    
-
    }
 
   addStudent(data){
